@@ -3,20 +3,20 @@
 
 ## Original ONScripter-Jh readme
 ```
-ONScripterÊÇÒ»¸ö¿ªÔ´µÄNScripter½Å±¾½âÊÍ¹¤¾ß£¬Ö÷ÒªÓÉOgapee¿ª·¢Î¬»¤
-Ô­°æµÄReadmeÇë²é¿´Readme.old¡£
+ONScripteræ˜¯ä¸€ä¸ªå¼€æºçš„NScripterè„šæœ¬è§£é‡Šå·¥å…·ï¼Œä¸»è¦ç”±Ogapeeå¼€å‘ç»´æŠ¤
+åŸç‰ˆçš„Readmeè¯·æŸ¥çœ‹Readme.oldã€‚
 
-ÕâÊÇÒ»¸öĞŞ¸Ä°æµÄONScripterÔ´Âë£¬ÔÚGPLv2Ğ­ÒéÏÂ·¢²¼£¬Ê¹ÓÃÊ±Çë×ñÊØ¡£
+è¿™æ˜¯ä¸€ä¸ªä¿®æ”¹ç‰ˆçš„ONScripteræºç ï¼Œåœ¨GPLv2åè®®ä¸‹å‘å¸ƒï¼Œä½¿ç”¨æ—¶è¯·éµå®ˆã€‚
 
-ĞŞ¸ÄÄ¿±ê£º
-	Ìá¹©±ÈÔ­°æONScripter¸üºÃµÄĞÔÄÜ£¬ÊÊµ±Ôö¼ÓÒ»Ğ©¹¦ÄÜ
-	Ìí¼ÓÖĞÎÄÖ§³Ö
-	¾¡¿ÉÄÜµÄ¼æÈİÔ­°æONS½Å±¾
+ä¿®æ”¹ç›®æ ‡ï¼š
+	æä¾›æ¯”åŸç‰ˆONScripteræ›´å¥½çš„æ€§èƒ½ï¼Œé€‚å½“å¢åŠ ä¸€äº›åŠŸèƒ½
+	æ·»åŠ ä¸­æ–‡æ”¯æŒ
+	å°½å¯èƒ½çš„å…¼å®¹åŸç‰ˆONSè„šæœ¬
 	
-½ø¶È
+è¿›åº¦
 
-	SDL2·ÖÖ§Ìá¹©¸÷ÖÖ¸Ä½ø²¢¿ÉÔÚSDL2»·¾³±àÒë
-	Ä¿Ç°Windows¡¢Android¡¢iOS¡¢Linux¡¢Windows PhoneÆ½Ì¨¾ù±àÒëÍ¨¹ıÊµ²â¿ÉÓÃ£¬ÆäÓàÆ½Ì¨Î´²âÊÔ
+	SDL2åˆ†æ”¯æä¾›å„ç§æ”¹è¿›å¹¶å¯åœ¨SDL2ç¯å¢ƒç¼–è¯‘
+	ç›®å‰Windowsã€Androidã€iOSã€Linuxã€Windows Phoneå¹³å°å‡ç¼–è¯‘é€šè¿‡å®æµ‹å¯ç”¨ï¼Œå…¶ä½™å¹³å°æœªæµ‹è¯•
 ```
 
 ## How to Build with new SDK sdk_tg5050_linux_v1.0.0.tgz
@@ -27,6 +27,13 @@ CC = /home/wmt/sdk_tg5050_linux_v1.0.0/host/bin/aarch64-none-linux-gnu-g++
 LD = /home/wmt/sdk_tg5050_linux_v1.0.0/host/bin/aarch64-none-linux-gnu-g++ -o  
 SYSROOT?=/home/wmt/sdk_tg5050_linux_v1.0.0/host/aarch64-buildroot-linux-gnu/sysroot  
 * cd new_sdk_tg5050; make MIYOO=1 clean; make MIYOO=1
+```
+æˆ‘æµ‹è¯•è¿‡trimuiå¹ç±³æœ€è¿‘å¼€æºçš„trimui smart pro sçš„SDKå¯ä»¥ç”¨ï¼Œ
+å’Œæ—§çš„smart pro sdkçš„åŒºåˆ«åœ¨äºâ€”â€”è¿™ä¸ªsdkä¸èƒ½åœ¨xubuntu 20.04ä¸‹è¿è¡Œï¼Œ
+æˆ‘æ˜¯æ¢æˆxubuntu 25.04ï¼›ä»ç„¶æœ‰å¯èƒ½å‡ºç°ç«–å±çš„æƒ…å†µï¼Œ
+æ‰€ä»¥è‡ªå·±å†™çš„æºä»£ç å¯èƒ½è¿˜éœ€è¦ä¿®æ”¹æ‰èƒ½ç”¨è¿™ä¸ªæ–°SDKæ¥ç¼–è¯‘è¿è¡Œ
+å¦åˆ™ä¼šæ—‹è½¬90åº¦â€”â€”å½“ç„¶è¿™åªæ˜¯å¯¹äºæˆ‘è€Œè¨€ â€‹â€‹â€‹â€‹
+```
 
 ## How to Build with old SDK SDK_usr_tg5040_a133p.tgz and aarch64-linux-gnu-7.5.0-linaro.tgz  
 * SDK_usr_tg5040_a133p.tgz and  aarch64-linux-gnu-7.5.0-linaro.tgz, under Xubuntu 20.04  
